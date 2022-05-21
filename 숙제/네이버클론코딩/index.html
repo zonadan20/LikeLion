@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>naver</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+    <div id=wrap>
+        <header id="header">
+            <div id="header__mid">
+                <div class="container">
+                    <div class="item logo fs-lb">
+                        <p>NAVER</p>
+                    </div>
+                    <div class="item searchwrap">
+                        <input class="search" type="text" title="검색" placeholder="">
+                        <button class="submit"> <i class="fas fa-search"></i>
+                            </input>
+                        </button>
+                    </div>
+                    <div class='item etc'>
+                        <span class="page fs-tm">네이버를 시작페이지로 ▶️</span>
+                        <span class="fs-tl"> | </span>
+                        <span class="junior fs-tb">쥬니어네이버</span>
+                        <span class="happybean fs-tb">해피빈</span>
+                    </div>
+                </div>
+            </div>
+            <nav id="header__gnb--bg">
+                <div id="header__gnb">
+                    <div class="leftbox fs-mb">
+                        <ul class='UL greenUL'>
+                            <li class="list">메일</li>
+                            <li class="list">카페</li>
+                            <li class="list">블로그</li>
+                            <li class="list">지식iN</li>
+                            <li class="list">쇼핑</li>
+                            <li class="list">쇼핑라이브</li>
+                            <li class="list">Pay</li>
+                            <li class="list">TV</li>
+                        </ul>
+                        <ul class="UL blackUL">
+                            <li class="list">사전</li>
+                            <li class="list">뉴스</li>
+                            <li class="list">증권</li>
+                            <li class="list">부동산</li>
+                            <li class="list">지도</li>
+                            <li class="list">VIBE</li>
+                            <li class="list">책</li>
+                            <li class="list">웹툰</li>
+                        </ul>
+                    </div>
+                    <div class="rightbox">
+                        <div class='seemore fs-sm'><span>더보기</span>
+                            <i class="fas fa-chevron-down down"></i>
+                        </div>
+                        <div id="search-filter_btn" class='fs-tm'>
+                            <span>16.0 맑음 16.0 / 33.0 이곡동</span>
+                            <i class="fas fa-chevron-down down"></i>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main id="container">
+            <section id="container-left">
+                <section id="left__ad">
+                    <img src="./img/main_adv.png">
+                </section>
+                <section id="left__speednews">
+                    <div class="speed">
+                        <span class="fs-sb company">연합뉴스 〉 </span>
+                        <div class="rolling">
+                            <ul class="fs-sm title" id="speednews_rolling"></ul>
+                        </div>
+                    </div>
+                    <ul class="fs-sb category">
+                        <li class="list blue naver">네이버뉴스 ・</li>
+                        <li class="list entertainment">연예</li>
+                        <li class="list sport">스포츠</li>
+                        <li class="list economy">경제</li>
+                    </ul>
+                </section>
+
+                <section id="left__newsstand">
+                    <div id="newsstand__title">
+                        <div class="title">
+                            <div class="newsstand">
+                                <span class="fs-mb">뉴스스텐드</span>
+                                <span class="fs-mb">〉</span>
+                            </div>
+                            <div class="fs-mm company-category">
+                                <span class="subscribe">구독한 언론사</span>
+                                <span class="fs-mb"> ・ </span>
+                                <span class="active all">전체 언론사</span>
+                            </div>
+                        </div>
+                        <ul class="setting">
+                            <li class="list">
+                                <i class="fas fa-list"></i>
+                            </li>
+                            <li class="active card">
+                                <i class="fas fa-th-large"></i>
+                            </li>
+                            <li class="cog">
+                                <i class="fas fa-cog"></i>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul id="newsstand__category">
+                    </ul>
+                </section>
+
+                <section id="left__article">
+                    <div id="article__title">
+                        <div class="title">
+                            <div class="todaysarticle">
+                                <span class="fs-mb">오늘 읽을만한 글</span>
+                                <span class="subtxt fs-tm fc-light">주제별로 분류된 다양한 글모음</span>
+                            </div>
+                        </div>
+                        <div class="setting fs-tm fc-light">
+                            <div>
+                                <span class="fs-tb fc-dark">2,161</span>
+                                <span>개의 글</span>
+                                <span>|</span>
+                            </div>
+                            <div class="cog fc-light">
+                                <i class="fas fa-cog "></i>
+                                <span>관심주제 설정</span>
+                            </div>
+                        </div>
+                    </div>
+                    <ul id="article__category" class="fs-sb">
+                        <li class="active">여행+</li>
+                        <li>테크</li>
+                        <li>JOB&</li>
+                        <li>과학</li>
+                        <li>리빙</li>
+                        <li>건강</li>
+                        <li>비즈니스</li>
+                        <li>연애・결혼</li>
+                    </ul>
+                    <div id="article__mainarticle">
+                        <div class="mainarticle-big fs-tb">
+                            <div class="imgwrap">
+                                <img class='img' alt="여름휴가 다들 어디로 가? 제주도만피하면 되는 이유!?"
+                                    src="./assets/images/mainarticle-big.jpg">
+                            </div>
+                            <div class="txt">
+                                <p class='type'>여행+리뷰</p>
+                                <p class='title'>여름휴가 다들 어디로 가? 제주도만피하면 되는 이유!?</p>
+                                <p class='intro fs-sm'>바가지 요금을 이렇게까지나? 온라인에서 이슈가 된 이야기를 공개합니다.</p>
+                                <p class='by fs-tm'>여행플러스</p>
+                            </div>
+                        </div>
+                        <div class="mainarticle-small">
+                            <ul class='listUL fs-tb' id="mainarticle-small-UL">
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="article__subarticle">
+                        <ul id="subarticleUL1">
+                        </ul>
+                        <ul id="subarticleUL1__video">
+                        </ul>
+                        <ul id="subarticleUL2"></ul>
+                        <ul id="subarticleUL2__video"></ul>
+                        <span class='license fs-tm fc-light'>여행+판의 컨텐츠는 (주)여행엔에 의해 운영・편집 됩니다.</span>
+                        <div class='morebutton-wrap'>
+                            <div class='morebutton'>
+                                <button class='btn'><i class="fas fa-plus-circle"></i></button>
+                                <p class='btn-txt fs-tl'>새로운 글 더보기</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+            <section id="container-right">
+                <section id='login'>
+                    <p class='message fs-tm fc-light'>네이버를 더 안전하고 편리하게 이용하세요</p>
+                    <button id='login-btn'>
+                        <span class='fs-lb'>NAVER</span>
+                        <span class='fs-sb'>로그인</span>
+                    </button>
+                    <div class='others fs-tm fc-medium'>
+                        <div class='find'>
+                            <i class="fas fa-lock fc-superlight"></i>
+                            <span> 아이디 ・ 비밀번호찾기</span>
+                        </div>
+                        <div class="join">
+                            <i class="fas fa-user fc-superlight"></i>
+                            <span> 회원가입</span>
+                        </div>
+
+                    </div>
+                </section>
+                <section id="right__issue">
+                    <div id="issuewrap">
+                        <ul id="issue_rolling">
+                        </ul>
+                        <div class="button issue_button">
+                            <button class="prev btn" data-button="prevBtn">
+                                <i class="fas fa-chevron-left"></i>
+                            </button>
+                            <button class="next btn" data-button="nextBtn">
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="right__ad" alt="unicef ad">
+                    <img src="https://ssl.pstatic.net/tveta/libs/1285/1285255/c9538667dd11eae845e6_20200529151515076_2.jpg"
+                        alt="모든 어린이를 위한 단하나의 팀 유니세프">
+                </section>
+
+                <section id="right__shop">
+                    <div id="shop__tab">
+                        <div class="title shop__title">
+                            <span class='fs-mb'>쇼핑</span>
+                        </div>
+                        <div class="tab tab__category">
+                            <span class="fs-sb active">상품</span>
+                            <span class="fs-sb">쇼핑몰</span>
+                            <span class="fs-sb">MEN</span>
+                        </div>
+                    </div>
+                    <div id="shop__content">
+                        <div class="shop__contentwrap">
+                            <div class="top">
+                                <div class="companyname fs-sb">바르닭 〉</div>
+                                <div class="page">
+                                    <span class="pagination fs-sb">1 / 13</span>
+                                    <span class="button">
+                                        <button class="prev btn">
+                                            <i class="fas fa-chevron-left"></i>
+                                        </button>
+                                        <button class="next btn">
+                                            <i class="fas fa-chevron-right"></i>
+                                        </button>
+                                    </span>
+                                </div>
+                            </div>
+                            <ul class="middle1">
+                            </ul>
+                            <div class="bottom">
+                                <div class="saletxt">
+                                    <span class="title fs-sb">SALE</span>
+                                    <span class="content fs-sm">식단관리는 바르닭 7월 최대 65% SALE</span>
+                                </div>
+                                <span class="next fs-sb fc-light">〉</span>
+                            </div>
+                        </div>
+                        <div class="shop__contentwrap">
+                            <div class="top">
+                                <div class="companyname fs-sb">데일리룩 〉</div>
+                                <div class="page">
+                                    <span class="pagination fs-sb">1 / 13</span>
+                                    <span class="button">
+                                        <button class="prev btn">
+                                            <i class="fas fa-chevron-left"></i>
+                                        </button>
+                                        <button class="next btn">
+                                            <i class="fas fa-chevron-right"></i>
+                                        </button>
+                                    </span>
+                                </div>
+                            </div>
+                            <ul class="middle2">
+                            </ul>
+                        </div>
+                        <div class="shop__contentwrap">
+                            <div class="top">
+                                <div class="companyname fs-sb">창안애 〉</div>
+                            </div>
+                            <ul class="middle3">
+                            </ul>
+                        </div>
+                        <div class="shop__contentwrap">
+                            <div class="top">
+                                <div class="companyname fs-sb">마리오아울렛 〉</div>
+                            </div>
+                            <ul class="middle4">
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </main>
+
+        <footer id='footerwrap'>
+            <div id="footer">
+                <section id="footerad">
+                    <div class="adthumb">
+                        <img src="" alt="" class="img">
+                        <div class="content">
+                            <span class="type adtype"></span>
+                            <span class="title adtitle"></span>
+                            <span class="txt adtxt"></span>
+                        </div>
+                    </div>
+                </section>
+                <section id="notice">
+                    <div class="notice-wrap fs-tb">
+                        <span class="title ">공지사항</span>
+                        <span class="content fs-tm">네이버 '개인정보 처리방침' 변경에 대한 안내 말씀 드립니다.</span>
+                    </div>
+                    <div class='gotoservice-wrap fs-tb'>
+                        <span class="seewhole">서비스 전체보기</span>
+                        <button class="go">
+                            〉
+                        </button>
+                    </div>
+                </section>
+                <section id="partner">
+                    <div class="partner-wrap">
+                    </div>
+                    <div class="servicebox-wrap">
+                        <div class="servicebox">
+                            <div class="txt">
+                                <span class="title"></span>
+                                <span class="go"></span>
+                            </div>
+                            <img src="" alt="" class="logo">
+                        </div>
+                    </div>
+                </section>
+                <section id="corp">
+                    <ul class="corp-lists">
+                    </ul>
+                    <span class="naver fs-mb">© NAVER Corp.</span>
+                </section>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
