@@ -1,0 +1,18 @@
+#header {
+    position: relative;
+}
+
+div {
+    display: block;
+}
+
+body, buton, input, select, table, textarea {
+    font-size: 12px;
+    line-height: 16px;
+    color: #202020;
+    font-family: -apple-system,BlinkMacSystemFont,"Malgun Gothic","¸¼Àº °íµñ",helvetica,"Apple SD Gothic Neo",sans-serif,
+}
+
+address {
+    font-style: normal;
+}
